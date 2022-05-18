@@ -1,0 +1,464 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+}
+
+/*cabecalho*/
+
+header {
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    box-shadow: 0 0 1rem black;
+}
+
+.logo {
+    color: rgb(255, 0, 0);
+    margin: 0px;
+    padding-top: 13px;
+    padding-left: 6em;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.itens ul {
+    color: rgb(255, 0, 0);
+    display: inline-flex;
+    padding-top: 15px;
+    gap: 3em;
+    padding-right: 60px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+/*menu*/
+
+
+
+.img1 h1 {
+    margin-top: -290px;
+    margin-left: 20px;
+    font-size: 18pt;
+    color: rgb(255, 248, 248);
+    width: 500px;
+}
+
+.btn-1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(92, 88, 88);
+    height: 32px;
+    border-radius: 6px;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-weight: bold;
+    border: none;
+    width: 172px;
+}
+
+.btn-1:hover {
+    color: rgb(255, 0, 0);
+    border: none;
+}
+
+.btn-2 {
+    width: 200px;
+    height: 30px;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+    background-color: rgb(92, 88, 88);
+    color: #ffff;
+}
+
+.btn-2:hover {
+    color: rgb(255, 0, 0);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+input {
+    width: 0;
+    border: none;
+    outline: none;
+    padding: 0;
+    background: none;
+    font-size: 1.1rem;
+    transition: 0.5s ease;
+    line-height: 40px;
+    color: #fff;
+}
+
+.icon {
+    color: #21DFCD;
+    float: right;
+    width: 40px;
+    font-size: 1.3rem;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.films {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding-top: 50px;
+}
+
+.films h2 {
+    color: rgb(255, 255, 255);
+    padding-left: 80px;
+    cursor: pointer;
+    font-size: 25pt;
+    padding-top: 60px;
+    text-decoration: underline rgb(255, 0, 0);
+}
+
+.f1 {
+    background-color: rgb(73, 75, 77);
+    width: 270px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 30px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.f1 p {
+    color: #fdfdfd;
+}
+
+.f1:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+
+.f2 {
+    background-color: rgb(73, 75, 77);
+    width: 270px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 30px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.f2 p {
+    color: #fdfdfd;
+}
+
+.f2:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.f3 {
+    background-color: rgb(73, 75, 77);
+    width: 270px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 30px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.f3 p {
+    color: #fdfdfd;
+}
+
+.f3:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.f4 {
+    background-color: rgb(73, 75, 77);
+    width: 270px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 30px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.f4 p {
+    color: #fdfdfd;
+}
+
+.f4:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.cont1 h2 {
+    padding-top: 50px;
+}
+
+.ass-1 {
+    width: 100px;
+    border-color: red;
+}
+
+.fil1 {
+    background-color: rgb(73, 75, 77);
+    width: 270px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 30px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.fil1 p {
+    color: #fdfdfd;
+}
+
+.fil1:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.ass-2 {
+    width: 180px;
+    border-color: red;
+}
+
+.ass-3 {
+    width: 140px;
+    border-color: red;
+}
+
+.ass-4 {
+    width: 180px;
+    border-color: red;
+}
+
+.cont-2 {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding-top: 50px;
+    height: 55vh;
+    cursor: pointer;
+}
+
+.cont-2 h2 {
+    color: #fdfdfd;
+    padding-left: 80px;
+    cursor: pointer;
+    font-size: 25pt;
+    padding-top: 30px;
+    text-decoration: underline rgb(255, 0, 0);
+
+}
+
+.film-01 {
+    background-color: rgb(73, 75, 77);
+    width: 270px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.film-01:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.film-01 p {
+    color: #fdfdfd;
+}
+
+.film-02 {
+    background-color: rgb(73, 75, 77);
+    width: 270px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 30px;
+    display: inline-block;
+
+}
+
+.film-02 p {
+    color: #fdfdfd;
+}
+
+.film-02:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.film-03 {
+    background-color: rgb(73, 75, 77);
+    width: 270px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.film-03 p {
+    color: #fdfdfd;
+}
+
+.film-03:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.film-04 {
+    background-color: rgb(73, 75, 77);
+    width: 270px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 30px;
+    display: inline-block
+}
+
+.film-04 p {
+    color: #fdfdfd;
+}
+
+.film-04:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+/*filmes do piratas*/
+
+.cont-3 {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding-top: 50px;
+    height: 70vh;
+    cursor: pointer;
+}
+
+.cont-3 h2 {
+    color: #fdfdfd;
+    padding-left: 80px;
+    cursor: pointer;
+    font-size: 22pt;
+    padding-top: 30px;
+    text-decoration: underline rgb(255, 0, 0);
+}
+
+.film-pirata1 {
+    background-color: rgb(73, 75, 77);
+    width: 270px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 30px;
+    display: inline-block
+}
+
+.film-pirata1 p {
+    color: #fdfdfd;
+}
+
+.film-pirata1:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.film-pirata2 {
+    background-color: rgb(73, 75, 77);
+    width: 270px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 30px;
+    display: inline-block
+}
+
+.film-pirata2 p {
+    color: #fdfdfd;
+}
+
+.film-pirata2:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.film-pirata3 {
+    background-color: rgb(73, 75, 77);
+    width: 270px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 30px;
+    display: inline-block
+}
+
+.film-pirata3 p {
+    color: #fdfdfd;
+}
+
+.film-pirata3:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.film-pirata4 {
+    background-color: rgb(73, 75, 77);
+    width: 270px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 30px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.film-pirata4 p {
+    color: #fdfdfd;
+}
+
+.film-pirata4:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+#linha-horizontal {
+    margin-left: 30px;
+    width: 1200px;
+    border: 1px solid #232323;
+}
+
+.rodape {
+    background-color: #000000;
+    width: 100%;
+    height: 130px;
+    display: inline-block;
+}
+
+.rodape .logo-1 {
+    color: rgb(255, 0, 0);
+    margin: 0px;
+    padding-top: 2%;
+    padding-left: 1em;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 25pt;
+}
+
+.rodape p {
+    color: gray;
+    text-align: center;
+}
